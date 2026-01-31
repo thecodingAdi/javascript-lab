@@ -6,10 +6,10 @@ Daily JavaScript practice programs and small logic-building exercises.
 
 @Week-1
 
-- EvenOdd.js → Check even/odd without % operator
-- loops.js → for, while, do-while examples
-- factorial.js → factorial logic
 - Demo.js → basic experiments
+- EvenOdd.js → Check even/odd without % operator
+- factorial.js → factorial logic
+- loops.js → for, while, do-while examples
 - fibonacci.js -> using various ways
 - Array.js -> All method in one Prgs
 
