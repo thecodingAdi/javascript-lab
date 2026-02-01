@@ -12,7 +12,7 @@ Daily JavaScript practice programs and small logic-building exercises.
 - loops.js → for, while, do-while examples
 - fibonacci.js → using various ways
 - Array.js → All method in one Prgs
-- 07-RemoveDuplicates,Frequency.js → Brute force ,object ,map
+- RemoveDuplicates,Frequency.js → Brute force ,object ,map
 
 ## Goal
 
