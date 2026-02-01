@@ -54,10 +54,23 @@ function mapFreq(arr){
     }
 }
 
+// ===============================
+// OUTPUT
+// ===============================
+
+// Brute force → 0 0 3 0 3 3 3 0
+// Object dict → { '1': 4, '2': 1, '4': 1, '6': 1, '8': 1 }
+// Map →
+// 2 1
+// 4 1
+// 1 4
+// 6 1
 
 // ===============================
 // Run all
 // ===============================
-bruteForceFreq(arr);
+bruteForceFreq(arr);  
 objectFreq(arr);
 mapFreq(arr);
+
+ 
