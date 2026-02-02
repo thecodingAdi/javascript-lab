@@ -14,6 +14,10 @@ Daily JavaScript practice programs and small logic-building exercises.
 - Array.js → All method in one Prgs
 - RemoveDuplicates,Frequency.js → Brute force ,object ,map
 
+@Week-2
+
+- Sorting.js → Bubble Sort, Selection Sort, Insertion Sort
+
 ## Goal
 
 Practicing JavaScript daily and maintaining GitHub streak.
