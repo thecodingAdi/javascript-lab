@@ -5,7 +5,7 @@ let arr = [2,4,1,6,1,1,1,8];
 
 
 // ===============================
-// 1️⃣ Brute Force (O(n²))
+//  Brute Force (O(n²))
 // ===============================
 function bruteForceFreq(arr){
     let ans = [];
@@ -25,7 +25,7 @@ function bruteForceFreq(arr){
 
 
 // ===============================
-// 2️⃣ Using Object (Dictionary) O(n)
+// Using Object (Dictionary) O(n)
 // ===============================
 function objectFreq(arr){
     let freq = {};
@@ -39,7 +39,7 @@ function objectFreq(arr){
 
 
 // ===============================
-// 3️⃣ Using Map (Best practice) O(n)
+//  Using Map (Best practice) O(n)
 // ===============================
 function mapFreq(arr){
     let map = new Map();
