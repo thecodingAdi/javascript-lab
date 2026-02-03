@@ -17,6 +17,7 @@ Daily JavaScript practice programs and small logic-building exercises.
 @Week-2
 
 - Sorting.js → Bubble Sort, Selection Sort, Insertion Sort
+- Searching.js → Linear search , Binary Search (using func)
 
 ## Goal
 

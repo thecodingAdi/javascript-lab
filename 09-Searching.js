@@ -31,7 +31,7 @@ function BS(arr,target){
     let right = arr.length - 1;
 
     while (left <= right) {
-        let mid = Math.floor((left + right) / 2);
+        let mid = Math.floor((left + (right-left)) / 2);
 
         if (arr[mid] === target) {
         console.log(target, "found at index =>", mid);
@@ -44,7 +44,6 @@ function BS(arr,target){
         right = mid - 1; // search left half
         }
     }
-
     return false; // not found
 }
 
@@ -54,4 +53,12 @@ console.log("Binary Search in ");
 console.log(bin.join(",")," Target=",tar);
 //Function Call
 let ans = BS(bin,tar);
-if(!ans) console.log("Target not found");
+if(!ans) console.log("Target not found");       // O U T P U T
+                                                // Linear Search in 
+                                                // 2,5,3,7,8,1,0,6  Target= 0
+                                                // 0 found at index => 6
+
+                                                // Binary Search in
+                                                // 1,2,3,4,5,6,7,8,9  Target= 3
+                                                // 3 found at index => 2
+
