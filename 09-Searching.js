@@ -31,7 +31,7 @@ function BS(arr,target){
     let right = arr.length - 1;
 
     while (left <= right) {
-        let mid = Math.floor((left + (right-left)) / 2);
+        let mid = Math.floor(left + (right - left) / 2);
 
         if (arr[mid] === target) {
         console.log(target, "found at index =>", mid);
