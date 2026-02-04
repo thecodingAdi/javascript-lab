@@ -66,7 +66,7 @@ function OptimisedTwoSum(nums,target){
     }
 }
 
-
+// Initillisation of Array and target
 let arr = [2,7,11,15];
 let target = 9;
 
@@ -84,6 +84,15 @@ console.log("Using Optimised force approch ");
 let result3=OptimisedTwoSum(arr,target);
 if(result3 != []) console.log(result3);
 else console.log("There is no such elements equal to target in array");
+
+/*
+Using Brute force approch 
+[ 0, 1 ]
+Using Better force approch
+[ 0, 1 ]
+Using Optimised force approch
+[ 0, 1 ]
+ */
 
 
 
