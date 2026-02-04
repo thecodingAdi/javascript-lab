@@ -18,6 +18,7 @@ Daily JavaScript practice programs and small logic-building exercises.
 
 - Sorting.js → Bubble Sort, Selection Sort, Insertion Sort
 - Searching.js → Linear search , Binary Search (using func)
+- Two_Sum.js → Brute , Better ,Optimised (used map)
 
 ## Goal
 
