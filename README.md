@@ -26,6 +26,7 @@ Daily JavaScript practice programs focused on strengthening fundamentals, logic 
 - Anagram_check.js → Anagram check using sorting and map methods
 - Stack.js → Stack implementation using class and object
 - Patterns.js → All pattern problems implemented using functions
+- CheckSortedArray.js → Revision & Logic Strengthening
 
 ---
 
@@ -53,6 +54,6 @@ Daily JavaScript practice programs focused on strengthening fundamentals, logic 
 ```bash
 node filename.js
 
-Made with ❤️ and consistency by **Adi**
-
 ```
+
+Made with ❤️ and consistency by **Adi**
