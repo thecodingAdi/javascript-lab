@@ -30,7 +30,7 @@ Input: n = 5
 1 2 3 4
 1 2 3 4 5
 
-Input: n = 5
+Input: n = 4
 
     *
    * *
@@ -89,7 +89,7 @@ function NumsUpRightTriangle() {
 }
 
 function pyramid() {
-    let n = 5;
+    let n = 4;
     for (let i = 1; i <= n; i++) {
         let row = "";
         // spaces
@@ -100,18 +100,54 @@ function pyramid() {
         for (let k = 1; k <= 2 * i - 1; k++) {
             row += "* ";
         }
-        
         console.log(row);
     }
 }
 
 square();
 console.log();
+
 upRightTriangle();
 console.log();
+
 downRightTriangle();
 console.log();
+
 NumsUpRightTriangle();
 console.log();
+
 pyramid();
 
+/*
+O U T P U T
+
+* * * * 
+* * * * 
+* * * * 
+* * * * 
+
+* 
+* * 
+* * * 
+* * * *
+* * * * *
+
+* * * * *
+* * * *
+* * *
+* *
+*
+
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+
+        *
+      * * *
+    * * * * *
+  * * * * * * *
+* * * * * * * * *
+
+*/
