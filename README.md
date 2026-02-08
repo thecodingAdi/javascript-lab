@@ -53,6 +53,6 @@ Daily JavaScript practice programs focused on strengthening fundamentals, logic 
 ```bash
 node filename.js
 
+```
 Made with ❤️ and consistency by **Adi**
 
-```
