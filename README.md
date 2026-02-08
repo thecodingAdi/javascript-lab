@@ -56,4 +56,7 @@ node filename.js
 
 ```
 
+```
 Made with ❤️ and consistency by **Adi**
+
+```
