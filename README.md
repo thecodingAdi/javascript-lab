@@ -30,6 +30,23 @@ Daily JavaScript practice programs focused on strengthening fundamentals, logic 
 
 ---
 
+---
+
+## 📙 Week 3 – DOM & Browser Projects
+
+- **Day 15 – JS Link & Button Alert**
+  - Linked JavaScript with HTML
+  - Button click event handling
+  - Alert interaction using DOM
+
+- **Day 16 – Counter App**
+  - Increment, decrement, and reset functionality
+  - DOM manipulation using `getElementById`
+  - Event handling with `addEventListener`
+  - Basic UI styling with CSS
+
+---
+
 ## What I Learned
 
 - JavaScript fundamentals and syntax
@@ -37,6 +54,7 @@ Daily JavaScript practice programs focused on strengthening fundamentals, logic 
 - Core DSA concepts: sorting, searching, stack
 - Problem-solving approaches: brute → optimized
 - Using functions for reusability and clarity
+- DOM manipulation and event handling
 - Maintaining code consistency and structure
 
 ---
