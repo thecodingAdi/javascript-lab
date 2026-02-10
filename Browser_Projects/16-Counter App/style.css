@@ -1,0 +1,19 @@
+body{
+    font-family: Consolas, monospace;
+
+
+    text-align: center;
+    margin-top: 100px;
+}
+
+#count {
+    font-size: 60px;
+    margin: 20px;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
