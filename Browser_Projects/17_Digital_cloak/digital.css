@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Orbitron', sans-serif;
+    transition: 0.4s;
+}
+
+/* DARK MODE */
+body.dark {
+    background-color: #111;
+    color: #16c951;
+    background-image: radial-gradient(circle at center, rgba(22,201,81,0.15), #111 70%);
+}
+
+/* LIGHT MODE */
+body.light {
+    background-color: #f8f8f5;
+    color: #1c022b;
+}
+
+.container {
+    text-align: center;
+}
+
+#clock {
+    font-size: 70px;
+    font-weight: bold;
+    margin: 15px 0;
+    text-shadow: 0 0 60px currentColor,
+                 0 0 122px currentColor,
+                 0 0 20px rgba(0, 255, 136, 0.5);
+}
+
+#date {
+    font-size: 18px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 25px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+/* DARK MODE BUTTON */
+body.dark button {
+    background: #00ff88;
+    color: #111;
+}
+/* LIGHT MODE BUTTON */
+body.light button {
+    background-color: #111;
+    color: #fff;
+}
+
+/* Hover */
+button:hover {
+    transform: scale(1.07);
+    opacity: 0.9;
+}
+
+/* Click */
+button:active {
+    transform: scale(0.95);
+}
+

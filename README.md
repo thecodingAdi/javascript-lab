@@ -43,6 +43,12 @@ Daily JavaScript practice programs focused on strengthening fundamentals, logic 
   - Event handling with `addEventListener`
   - Basic UI styling with CSS
 
+- **Day 17 – Digital Clock**
+  - Real-time 24-hour clock using Date() and setInterval()
+  - Blinking colon animation and live date display
+  - DOM manipulation with getElementById and event handling
+  - Neon UI styling with Dark/Light theme toggle
+
 ---
 
 ## What I Learned
