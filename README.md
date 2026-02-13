@@ -49,6 +49,14 @@ Daily JavaScript practice programs focused on strengthening fundamentals, logic 
   - DOM manipulation with getElementById and event handling
   - Neon UI styling with Dark/Light theme toggle
 
+- **Day 18 – Random Color Generator**
+  - Built Random Color Generator
+  - Understood DOM connection deeply
+  - Learned event listeners properly
+  - Learned HEX & RGB logic
+
+- **Day 19 – Number Guessing Game**
+
 ---
 
 ## What I Learned
