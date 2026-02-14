@@ -56,6 +56,10 @@ Daily JavaScript practice programs focused on strengthening fundamentals, logic 
   - Learned HEX & RGB logic
 
 - **Day 19 – Number Guessing Game**
+  - Built a glassmorphic Number Guessing Game
+  - Implemented random number logic with limited attempts
+  - Designed smart hint system (range, even/odd, divisibility)
+  - Practiced state management and Enter key submission handling
 
 ---
 

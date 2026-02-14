@@ -1,0 +1,164 @@
+/* body {
+    background-color: black;
+    color: #00ff00;
+    font-family: monospace;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+input {
+    padding: 10px;
+    background: black;
+    border: 1px solid #00ff00;
+    color: #00ff00;
+    font-size: 18px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background: black;
+    border: 1px solid #00ff00;
+    color: #00ff00;
+    cursor: pointer;
+}
+
+#hintBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    background: black;
+    border: 1px dashed #00ff00;
+    color: #00ff00;
+
+    padding: 10px 15px;
+    font-family: monospace;
+}
+
+#hintBtn:hover {
+    background: #003300;
+    box-shadow: 0 0 10px #00ff00;
+}
+
+
+button:hover {
+    background: #003300;
+    box-shadow: 0 0 10px #00ff00;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 20px;
+} */
+  
+
+
+/* ===== Background ===== */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: cursive;
+
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+/* ===== Glass Card ===== */
+.container {
+    width: 350px;
+    padding: 40px;
+    border-radius: 20px;
+
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+
+    text-align: center;
+    color: white;
+}
+
+/* ===== Title ===== */
+h1 {
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+/* ===== Input ===== */
+input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+
+    border-radius: 10px;
+    border: none;
+
+    outline: none;
+    font-size: 16px;
+
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+/* ===== Buttons ===== */
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+
+    border-radius: 10px;
+    border: none;
+
+    font-size: 16px;
+    cursor: pointer;
+
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background: rgba(255, 255, 255, 0.4);
+    transform: scale(1.05);
+}
+
+/* ===== Hint Button (Floating Glass) ===== */
+#hintBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    padding: 12px 18px;
+    border-radius: 50px;
+
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+
+    color: white;
+    border: none;
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+
+    transition: 0.3s ease;
+}
+
+#hintBtn:hover {
+    transform: scale(1.1);
+}
+
+/* ===== Message ===== */
+#message {
+    margin-top: 15px;
+    font-size: 16px;
+    min-height: 20px;
+}
