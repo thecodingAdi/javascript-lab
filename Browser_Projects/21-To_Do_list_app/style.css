@@ -1,0 +1,188 @@
+/* Google Font (Add this link in HTML head)
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+*/
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: radial-gradient(circle at top left, #667eea, #764ba2);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding-top: 120px;
+    margin: 0;
+}
+
+/* Main Card */
+.container {
+    width: 420px;
+    background: #ffffff;
+    padding: 35px;
+    border-radius: 18px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+    transition: 0.3s ease;
+}
+
+.container:hover {
+    transform: translateY(-4px);
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Input Section */
+.input-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+/* Input + Select */
+input, select {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    outline: none;
+    font-size: 14px;
+    transition: 0.2s ease;
+}
+
+input:focus, select:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 50px rgba(102, 126, 234, 0.4);
+}
+
+.categories{
+    padding: 10px;
+    font-family: serif;
+}
+
+/* Add Button */
+button {
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: none;
+    background: #667eea;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+button:hover {
+    background: #5a67d8;
+    transform: scale(1.05);
+}
+
+/* Category Counters */
+.categories {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+    font-style: initial;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Task List */
+ul {
+    list-style: circle;
+    padding: 1px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    background: #3e67ee;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: 0.2s ease;
+}
+
+li:hover {
+    background: #647bf1;
+}
+
+/* Completed Task */
+.completed {
+    text-decoration: line-through;
+    color: #828492;
+    opacity: 0.7;
+}
+
+
+/* Delete Button */
+li button {
+    background: #ff4d4d;
+    padding: 6px 10px;
+    font-size: 12px;
+}
+
+li button:hover {
+    background: #e63946;
+}
+
+/* ================= POPUP PANEL ================= */
+
+.popup {
+    position: fixed;
+    top: 0;
+    right: -500px; /* hidden */
+    width: 400px;
+    height: 100vh;
+    background: #ffffff;
+    box-shadow: -10px 0 30px rgba(0,0,0,0.2);
+    padding: 30px;
+    transition: right 0.4s ease;
+    overflow-y: auto;
+    z-index: 1000;
+}
+
+/* When active */
+.popup.active {
+    right: 0;
+}
+
+/* Header */
+.popup-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#closeBtn {
+    background: #ff4d4d;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Optional overlay background */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.3);
+    backdrop-filter: blur(2px);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+.overlay.active {
+    opacity: 1;
+    pointer-events: all;
+}

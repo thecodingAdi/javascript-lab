@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Todo App - Day 21</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!-- MAIN CONTAINER -->
+    <div class="container">
+        <h1>Task Manager</h1>
+
+        <!-- Input Section -->
+        <div class="input-section">
+            <input type="text" id="taskInput" placeholder="Enter a task">
+            
+            <select id="categorySelect">
+                <option value="Health">Health</option>
+                <option value="Work">Work</option>
+                <option value="Mental">Mental</option>
+                <option value="Others">Others</option>
+            </select>
+
+            <button id="addBtn">+ Add</button>
+        </div>
+
+        
+        <!-- Category Counters -->
+        <div class="categories">
+            <div>Health: <span id="healthCount">0</span></div>
+            <div>Work: <span id="workCount">0</span></div>
+            <div>Mental: <span id="mentalCount">0</span></div>
+            <div>Others: <span id="othersCount">0</span></div>
+        </div>
+
+        <button id="viewBtn">View Tasks →</button>
+    </div>
+
+    <!-- RIGHT SIDE POPUP PANEL -->
+    <div class="popup" id="taskPopup">
+
+        <div class="popup-header">
+            <h2>Your Tasks</h2>
+            <button id="closeBtn">✖</button>
+        </div>
+
+        <!-- Task List -->
+        <ul id="taskList"></ul>
+    </div>
+    <div class="overlay" id="overlay"></div>
+
+    <script src="script.js"></script>
+
+</body>
+
+
+</html>

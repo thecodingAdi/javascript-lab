@@ -61,6 +61,18 @@ Daily JavaScript practice programs focused on strengthening fundamentals, logic 
   - Designed smart hint system (range, even/odd, divisibility)
   - Practiced state management and Enter key submission handling
 
+- **Day 20 – Calculator**
+  - Built a responsive glassmorphic calculator with modern UI design
+  - Implemented arithmetic evaluation using `eval()` with proper error handling
+  - Added full keyboard support (numbers, operators, Enter, Backspace, Escape)
+  - Designed a floating toggleable calculation history panel with dynamic updates
+
+- **Day 21 – To-Do List with slide Panel**
+  - Built a category-based To-Do app with localStorage persistence
+  - Implemented checkbox completion, delete functionality, and automatic task sorting
+  - Added dynamic category counters with real-time updates
+  - Designed a sliding popup task panel with overlay interaction for better UX
+
 ---
 
 ## What I Learned
