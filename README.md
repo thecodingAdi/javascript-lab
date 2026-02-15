@@ -30,7 +30,9 @@ Daily JavaScript practice programs focused on strengthening fundamentals, logic 
 
 ---
 
-## 📙 Week 3 – DOM & Browser Projects Git Deployed-> https://thecodingadi.github.io/javascript-lab/
+## 📙 Week 3 – DOM & Browser Projects
+
+## Git Deployed-> https://thecodingadi.github.io/javascript-lab/
 
 - **Day 15 – JS Link & Button Alert**
   - Linked JavaScript with HTML
