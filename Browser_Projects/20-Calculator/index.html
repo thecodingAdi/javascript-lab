@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Calculator</h1>
+
+    <!-- Display Wrapper -->
+    <div class="display-wrapper">
+        <input type="text" id="display" readonly>
+        <button id="historyBtn" class="history-icon">🕘</button>
+    </div>
+
+    <!-- Floating History Box -->
+    <div id="historyBox" class="history-box">
+        <h4>History</h4>
+        <ul id="historyList"></ul>
+    </div>
+
+    <!-- Buttons Grid -->
+    <div class="buttons">
+        <button class="btn">7</button>
+        <button class="btn">8</button>
+        <button class="btn">9</button>
+        <button class="btn operator">/</button>
+
+        <button class="btn">4</button>
+        <button class="btn">5</button>
+        <button class="btn">6</button>
+        <button class="btn operator">*</button>
+
+        <button class="btn">1</button>
+        <button class="btn">2</button>
+        <button class="btn">3</button>
+        <button class="btn operator">-</button>
+
+        <button class="btn">0</button>
+        <button class="btn">.</button>
+        <button id="clear">C</button>
+        <button class="btn operator">+</button>
+
+        <button id="equals">=</button>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
