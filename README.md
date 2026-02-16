@@ -81,7 +81,7 @@ Daily JavaScript practice programs focused on strengthening fundamentals, logic 
 
 ## ⏱ Day 22–23 – Stopwatch Project
 
-### ✅ Features (Part 1)
+### Features (Part 1)
 
 - Start
 - Stop
