@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #18163f;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.container {
+    text-align: center;
+}
+
+#display {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#start { background: #22c55e; }
+#stop { background: #ef4444; }
+#reset { background: #3b82f6; }
+
+button:hover {
+    opacity: 0.8;
+}

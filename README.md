@@ -77,6 +77,18 @@ Daily JavaScript practice programs focused on strengthening fundamentals, logic 
 
 ---
 
+## 📙 Week 4 – Protfolio Projects
+
+## ⏱ Day 22–23 – Stopwatch Project
+
+### ✅ Features (Part 1)
+
+- Start
+- Stop
+- Reset
+- HH:MM:SS format
+- Clean dark UI
+
 ## What I Learned
 
 - JavaScript fundamentals and syntax
