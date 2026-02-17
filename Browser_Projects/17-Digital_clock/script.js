@@ -8,7 +8,7 @@ function updateClock() {
     let minutes = now.getMinutes();
     let seconds = now.getSeconds();
 
-    // 3. Add leading zero using professional method
+    // 3. Add leading zero  
     hours = String(hours).padStart(2, "0");
     minutes = String(minutes).padStart(2, "0");
     seconds = String(seconds).padStart(2, "0");
@@ -34,8 +34,7 @@ function updateClock() {
     document.getElementById("date").innerText = today;
 }
 
-
-// 🔥 THEME TOGGLE
+ 
 let body = document.body;
 let toggleBtn = document.getElementById("toggleBtn");
 
