@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Stopwatch</title>
+    <title>Stopwatch Pro</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="container">
-        <h1 id="display">00:00:00</h1>
+<div class="container">
+    <h1>⏱ Stopwatch</h1>
 
-        <div class="buttons">
-            <button id="start">Start</button>
-            <button id="stop">Stop</button>
-            <button id="reset">Reset</button>
-        </div>
+    <div id="display">00:00:00:00</div>
+
+    <div class="buttons">
+        <button id="start">Start</button>
+        <button id="stop" disabled>Stop</button>
+        <button id="lap" disabled>Lap</button>
+        <button id="reset" disabled>Reset</button>
     </div>
 
-    <script src="script.js"></script>
+    <ul id="laps"></ul>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>

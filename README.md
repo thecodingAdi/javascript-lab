@@ -79,15 +79,22 @@ Daily JavaScript practice programs focused on strengthening fundamentals, logic 
 
 ## 📙 Week 4 – Protfolio Projects
 
-# ⏱ Day 22–23 – Stopwatch Project
+### ⏱ Day 22–23 – Stopwatch Project
 
-# Features (Part 1)
+### Features (Part 1)
 
 - Start
 - Stop
 - Reset
 - HH:MM:SS format
-- Clean dark UI
+- Clean dark
+
+### 🚀 Features (Part 2)
+
+- Lap functionality
+- Dynamic lap list
+- Button state control
+- UI polish
 
 ## What I Learned
 
