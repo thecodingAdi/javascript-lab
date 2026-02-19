@@ -1,73 +1,132 @@
 // ===============================
-// SELECT ELEMENTS
+// Elements
 // ===============================
+
 const paragraph = document.getElementById("paragraph");
 const input = document.getElementById("input");
-const timerDisplay = document.getElementById("timer");
+const timeDisplay = document.getElementById("time");
+const wpmDisplay = document.getElementById("wpm");
+const accuracyDisplay = document.getElementById("accuracy");
 const restartBtn = document.getElementById("restart");
 
 // ===============================
-// VARIABLES
+// Paragraph Text
 // ===============================
-const text = "JavaScript is powerful and versatile. Practice daily to improve your coding skills.";
 
-let timeLeft = 60;
+const paragraphText = "JavaScript is a powerful language used to build interactive and dynamic websites. Practice daily to improve your logic and coding skills.";
+
+// ===============================
+// Variables
+// ===============================
+
 let timer = null;
+let maxTime = 60;
+let timeLeft = maxTime;
+let correctChars = 0;
 let isTyping = false;
 
 // ===============================
-// SHOW PARAGRAPH
+// Initialize Paragraph
 // ===============================
-paragraph.textContent = text;
+
+function loadParagraph() {
+    paragraph.innerHTML = paragraphText
+        .split("")
+        .map(char => `<span>${char}</span>`)
+        .join("");
+}
+
+loadParagraph();
 
 // ===============================
-// START TIMER FUNCTION
+// Start Timer
 // ===============================
+
 function startTimer() {
     timer = setInterval(() => {
-        timeLeft--;
-        timerDisplay.textContent = timeLeft;
-
-        if (timeLeft === 0) {
+        if (timeLeft > 0) {
+            timeLeft--;
+            timeDisplay.innerText = timeLeft;
+            calculateResults();
+        } else {
             clearInterval(timer);
             input.disabled = true;
-            alert("Time's up!");
         }
     }, 1000);
 }
 
 // ===============================
-// INPUT EVENT
+// Calculate WPM & Accuracy
 // ===============================
+
+function calculateResults() {
+    let timeSpent = (maxTime - timeLeft) / 60;
+
+    let wpm = timeSpent > 0 
+        ? Math.round((correctChars / 5) / timeSpent) 
+        : 0;
+
+    let accuracy = input.value.length > 0
+        ? Math.round((correctChars / input.value.length) * 100)
+        : 0;
+
+    wpmDisplay.innerText = wpm;
+    accuracyDisplay.innerText = accuracy + "%";
+}
+
+// ===============================
+// Typing Logic
+// ===============================
+
 input.addEventListener("input", () => {
 
-    // Start timer on first type
+    const characters = paragraph.querySelectorAll("span");
+    const typedChars = input.value.split("");
+
+    correctChars = 0;
+
+    characters.forEach((char, index) => {
+        if (typedChars[index] == null) {
+            char.classList.remove("correct", "wrong");
+        }
+        else if (typedChars[index] === char.innerText) {
+            char.classList.add("correct");
+            char.classList.remove("wrong");
+            correctChars++;
+        }
+        else {
+            char.classList.add("wrong");
+            char.classList.remove("correct");
+        }
+    });
+
+    // Start timer on first key press
     if (!isTyping) {
-        isTyping = true;
         startTimer();
+        isTyping = true;
     }
 
-    let typedText = input.value;
-
-    // If user completes text before time
-    if (typedText === text) {
-        clearInterval(timer);
-        alert("You completed the test!");
-        input.disabled = true;
-    }
+    calculateResults();
 });
 
 // ===============================
-// RESTART BUTTON
+// Restart Function
 // ===============================
-restartBtn.addEventListener("click", () => {
-    clearInterval(timer);
 
-    timeLeft = 60;
-    timerDisplay.textContent = timeLeft;
+function resetGame() {
+    clearInterval(timer);
+    timeLeft = maxTime;
+    correctChars = 0;
+    isTyping = false;
 
     input.value = "";
     input.disabled = false;
 
-    isTyping = false;
-});
+    timeDisplay.innerText = timeLeft;
+    wpmDisplay.innerText = 0;
+    accuracyDisplay.innerText = "0%";
+
+    loadParagraph();
+}
+
+restartBtn.addEventListener("click", resetGame);

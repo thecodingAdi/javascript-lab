@@ -1,100 +1,111 @@
 /* =========================
-   GLOBAL RESET
+   Global Reset
 ========================= */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* =========================
-   BODY
-========================= */
 body {
-    height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+    background: #000000;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-
-    font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    height: 100vh;
 }
 
 /* =========================
-   MAIN CONTAINER
+   Main Container
 ========================= */
+
 .container {
-    width: 500px;
-    padding: 25px;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-    text-align: center;
+    width: 750px;
+    background: #141414;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 25px rgba(0, 255, 120, 0.2);
+    transition: 0.3s ease;
+}
+
+.container:hover {
+    box-shadow: 0 0 35px rgba(0, 255, 120, 0.35);
 }
 
 /* =========================
-   TITLE
+   Heading
 ========================= */
+
 h1 {
-    color: #113a86;
-    margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 25px;
+    color: #00ff88;
+    letter-spacing: 2px;
 }
 
-
 /* =========================
-   PARAGRAPH DISPLAY
+   Paragraph Box
 ========================= */
+
 #paragraph {
-    background: #f4f4f4;
-    padding: 15px;
-    border-radius: 6px;
-    margin-bottom: 15px;
-    line-height: 1.6;
-    font-size: 14px;
-    color: #333;
+    background: #222;
+    padding: 20px;
+    border-radius: 8px;
+    min-height: 120px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+#paragraph span {
+    transition: 0.1s;
 }
 
 /* =========================
-   TEXTAREA
+   Typing Highlight
 ========================= */
-textarea {
-    width: 100%;
-    height: 100px;
-    padding: 10px;
-    resize: none;
-    border-radius: 6px;
-    border: 1px solid #ccc;
-    font-size: 14px;
-    margin-bottom: 15px;
-    outline: none;
+
+.correct {
+    color: #00ff00;
 }
 
-textarea:focus {
-    border-color: #2a5298;
+.wrong {
+    color: #ff4c4c;
+}
+
+/* Optional active cursor effect */
+#paragraph span.active {
+    border-bottom: 2px solid #00ff88;
 }
 
 /* =========================
-   TIMER
+   Stats Section
 ========================= */
-.timer {
-    font-weight: bold;
-    margin-bottom: 15px;
-    color: #1e3c72;
+
+.stats {
+    margin-bottom: 20px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
 }
 
-/* =========================
-   BUTTON
-========================= */
-button {
-    padding: 8px 15px;
-    border: none;
-    border-radius: 5px;
-    background: #1e3c72;
-    color: white;
-    cursor: pointer;
-    transition: 0.2s ease;
+#input{
+    width: 700px;
 }
 
-button:hover {
-    background: #624be4;
+#restart {
+    background: linear-gradient(135deg, #8785f1, #035730);
+    backdrop-filter: blur(5px);
+    transform: scale(0.95);
 }
+
+#restart:hover {
+     
+    box-shadow: 0 5px 15px rgba(0,255,150,0.4);
+}
+ 
+
+/* =========*

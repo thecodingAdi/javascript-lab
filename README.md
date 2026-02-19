@@ -96,6 +96,25 @@ Daily JavaScript practice programs focused on strengthening fundamentals, logic 
 - Button state control
 - UI polish
 
+### ⌨ Day 24-25 - Typing Test
+
+### Features(Part 1)
+
+- Paragraph display
+- Typing detection logic
+- 60s Timer
+- Basic WPM calculation
+- Clean dark UI
+
+### Features(Part 2)
+
+- Live character highlighting
+- Real-time WPM & Accuracy
+- Auto-start timer
+- Input disable on time end
+- Restart functionality
+- UI polish
+
 ## What I Learned
 
 - JavaScript fundamentals and syntax
