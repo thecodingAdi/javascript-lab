@@ -115,6 +115,10 @@ Daily JavaScript practice programs focused on strengthening fundamentals, logic 
 - Restart functionality
 - UI polish
 
+### ⌨ Day 26 - Weather App
+
+- integrating api key
+
 ## What I Learned
 
 - JavaScript fundamentals and syntax
