@@ -119,6 +119,16 @@ Daily JavaScript practice programs focused on strengthening fundamentals, logic 
 
 - integrating api key
 
+### 📝 Day 27 – Notes App
+
+- Add new notes
+- Delete notes
+- Persistent storage using localStorage
+- Dynamic rendering of notes
+- Responsive grid layout
+- Modern glassmorphism UI
+- Smooth hover animations
+
 ## What I Learned
 
 - JavaScript fundamentals and syntax
