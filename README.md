@@ -129,6 +129,14 @@ Daily JavaScript practice programs focused on strengthening fundamentals, logic 
 - Modern glassmorphism UI
 - Smooth hover animations
 
+### 🌗 Day 28 – Dark / Light Mode Website
+
+- Toggle between Dark 🌙 and Light ☀️ mode
+- Theme persistence using localStorage
+- System theme detection (prefers-color-scheme)
+- Smooth transitions using CSS variables
+- Modern glassmorphism UI with toggle switch
+
 ## What I Learned
 
 - JavaScript fundamentals and syntax
