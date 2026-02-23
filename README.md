@@ -153,4 +153,20 @@ https://thecodingadi.github.io/javascript-lab/
 
 ---
 
-# 📸 Project Previews
+# 📸 Project Screenshots
+
+## 🔹 Day 15 – JS Link & Button Alert
+
+![Day 15](./screenshots/day15.png)
+
+## 🔹 Day 16 – Counter App
+
+![Day 16](./screenshots/day16.png)
+
+## 🔹 Day 17 – Digital Clock
+
+![Day 17](./screenshots/day17.png)
+
+## 🔹 Day 18 – Random Color Generator
+
+![Day 18](./screenshots/day18.png)
