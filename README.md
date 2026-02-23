@@ -4,6 +4,7 @@ A structured 30-day JavaScript practice repository focused on fundamentals, logi
 
 🔗 **Live Demo:**  
 https://thecodingadi.github.io/javascript-lab/
+http://127.0.0.1:5500/Browser_Projects/
 
 ---
 
