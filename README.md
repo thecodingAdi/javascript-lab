@@ -1,167 +1,156 @@
-# JavaScript Lab 🚀
+# 🚀 JavaScript Lab – 30 Day Consistency Journey
 
-Daily JavaScript practice programs focused on strengthening fundamentals, logic building, and problem-solving skills.
+A structured 30-day JavaScript practice repository focused on fundamentals, logic building, DOM mastery, and real-world mini projects.
 
----
-
-## Programs
-
-### 📘 Week 1 – Core JavaScript Basics
-
-- Demo.js → Basic JavaScript experiments
-- EvenOdd.js → Check even/odd without using `%` operator
-- factorial.js → Factorial logic implementation
-- loops.js → for, while, do-while examples
-- fibonacci.js → Fibonacci sequence using various approaches
-- Array.js → All array methods implemented in one program
-- RemoveDuplicates,Frequency.js → Remove duplicates and frequency count using brute force, object, and map
+🔗 **Live Demo:**  
+https://thecodingadi.github.io/javascript-lab/
 
 ---
 
-### 📗 Week 2 – Logic Building & DSA Foundations
+## 🛠 Tech Stack
 
-- Sorting.js → Bubble Sort, Selection Sort, Insertion Sort
-- Searching.js → Linear Search and Binary Search (using functions)
-- Two_Sum.js → Brute force, better, and optimized (Map-based) approaches
-- Anagram_check.js → Anagram check using sorting and map methods
-- Stack.js → Stack implementation using class and object
-- Patterns.js → All pattern problems implemented using functions
-- CheckSortedArray.js → Revision & Logic Strengthening
-
----
-
-## 📙 Week 3 – DOM & Browser Projects
-
-## Git Deployed-> https://thecodingadi.github.io/javascript-lab/
-
-- **Day 15 – JS Link & Button Alert**
-  - Linked JavaScript with HTML
-  - Button click event handling
-  - Alert interaction using DOM
-
-- **Day 16 – Counter App**
-  - Increment, decrement, and reset functionality
-  - DOM manipulation using `getElementById`
-  - Event handling with `addEventListener`
-  - Basic UI styling with CSS
-
-- **Day 17 – Digital Clock**
-  - Real-time 24-hour clock using Date() and setInterval()
-  - Blinking colon animation and live date display
-  - DOM manipulation with getElementById and event handling
-  - Neon UI styling with Dark/Light theme toggle
-
-- **Day 18 – Random Color Generator**
-  - Built Random Color Generator
-  - Understood DOM connection deeply
-  - Learned event listeners properly
-  - Learned HEX & RGB logic
-
-- **Day 19 – Number Guessing Game**
-  - Built a glassmorphic Number Guessing Game
-  - Implemented random number logic with limited attempts
-  - Designed smart hint system (range, even/odd, divisibility)
-  - Practiced state management and Enter key submission handling
-
-- **Day 20 – Calculator**
-  - Built a responsive glassmorphic calculator with modern UI design
-  - Implemented arithmetic evaluation using `eval()` with proper error handling
-  - Added full keyboard support (numbers, operators, Enter, Backspace, Escape)
-  - Designed a floating toggleable calculation history panel with dynamic updates
-
-- **Day 21 – To-Do List with slide Panel**
-  - Built a category-based To-Do app with localStorage persistence
-  - Implemented checkbox completion, delete functionality, and automatic task sorting
-  - Added dynamic category counters with real-time updates
-  - Designed a sliding popup task panel with overlay interaction for better UX
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- DOM API
+- LocalStorage
+- Fetch API
+- Git & GitHub
+- GitHub Pages
 
 ---
 
-## 📙 Week 4 – Protfolio Projects
+# 📘 Week 1 – Core JavaScript Basics
 
-### ⏱ Day 22–23 – Stopwatch Project
+- **Demo.js** → JavaScript experiments & fundamentals
+- **EvenOdd.js** → Even/Odd check without `%` operator
+- **factorial.js** → Factorial logic implementation
+- **loops.js** → for, while, do-while examples
+- **fibonacci.js** → Fibonacci sequence (multiple approaches)
+- **Array.js** → Array methods implementation
+- **RemoveDuplicates,Frequency.js** → Brute force, Object & Map-based solutions
 
-### Features (Part 1)
+---
 
-- Start
-- Stop
-- Reset
+# 📗 Week 2 – Logic Building & DSA Foundations
+
+- **Sorting.js** → Bubble, Selection, Insertion Sort
+- **Searching.js** → Linear & Binary Search
+- **Two_Sum.js** → Brute → Optimized (Map-based)
+- **Anagram_check.js** → Sorting & Map approaches
+- **Stack.js** → Stack implementation using class
+- **Patterns.js** → Pattern problems using functions
+- **CheckSortedArray.js** → Revision & logic strengthening
+
+---
+
+# 📙 Week 3 – DOM & Browser Projects
+
+### 🔹 Day 15 – JS Link & Button Alert
+
+- DOM connection
+- Event handling
+- Alert interaction
+
+### 🔹 Day 16 – Counter App
+
+- Increment / Decrement / Reset
+- DOM manipulation
+- Event listeners
+
+### 🔹 Day 17 – Digital Clock
+
+- Real-time 24-hour clock
+- `Date()` + `setInterval()`
+- Dark/Light theme toggle
+
+### 🔹 Day 18 – Random Color Generator
+
+- HEX & RGB logic
+- Dynamic background update
+- DOM mastery
+
+### 🔹 Day 19 – Number Guessing Game
+
+- Random number logic
+- Smart hint system
+- Limited attempts
+- State management
+
+### 🔹 Day 20 – Calculator
+
+- Responsive glassmorphic UI
+- `eval()` with error handling
+- Full keyboard support
+- Toggleable history panel
+
+### 🔹 Day 21 – To-Do List
+
+- Category-based tasks
+- localStorage persistence
+- Checkbox completion
+- Sliding task panel
+
+---
+
+# 📙 Week 4 – Portfolio Projects
+
+## ⏱ Day 22–23 – Stopwatch
+
+**Features:**
+
+- Start / Stop / Reset
 - HH:MM:SS format
-- Clean dark
-
-### 🚀 Features (Part 2)
-
 - Lap functionality
 - Dynamic lap list
 - Button state control
-- UI polish
+- Polished dark UI
 
-### ⌨ Day 24-25 - Typing Test
+---
 
-### Features(Part 1)
+## ⌨ Day 24–25 – Typing Test
+
+**Features:**
 
 - Paragraph display
-- Typing detection logic
-- 60s Timer
-- Basic WPM calculation
-- Clean dark UI
-
-### Features(Part 2)
-
-- Live character highlighting
-- Real-time WPM & Accuracy
+- Real-time character highlighting
+- 60s timer
+- Live WPM & Accuracy
 - Auto-start timer
-- Input disable on time end
 - Restart functionality
-- UI polish
+- Input disable after timeout
 
-### ⌨ Day 26 - Weather App
+---
 
-- integrating api key
+## 🌦 Day 26 – Weather App
 
-### 📝 Day 27 – Notes App
+- Integrated OpenWeather API
+- City search
+- Dynamic weather display
+- Error handling
+- Modern UI
 
-- Add new notes
-- Delete notes
-- Persistent storage using localStorage
-- Dynamic rendering of notes
-- Responsive grid layout
-- Modern glassmorphism UI
+---
+
+## 📝 Day 27 – Notes App
+
+- Add/Delete notes
+- localStorage persistence
+- Dynamic rendering
+- Responsive grid
+- Glassmorphism UI
 - Smooth hover animations
 
-### 🌗 Day 28 – Dark / Light Mode Website
+---
 
-- Toggle between Dark 🌙 and Light ☀️ mode
+## 🌗 Day 28 – Dark / Light Mode Website
+
+- Theme toggle (🌙 / ☀️)
 - Theme persistence using localStorage
-- System theme detection (prefers-color-scheme)
-- Smooth transitions using CSS variables
-- Modern glassmorphism UI with toggle switch
-
-## What I Learned
-
-- JavaScript fundamentals and syntax
-- Writing clean logic using loops and conditions
-- Core DSA concepts: sorting, searching, stack
-- Problem-solving approaches: brute → optimized
-- Using functions for reusability and clarity
-- DOM manipulation and event handling
-- Maintaining code consistency and structure
+- System theme detection
+- CSS variable-based transitions
+- Modern UI design
 
 ---
 
-## Goal
-
-- Practice JavaScript daily
-- Strengthen logic-building skills
-- Maintain GitHub consistency and discipline
-
----
-
-## How to Run
-
-```bash
-node filename.js
-
-```
-
-Made with ❤️ and consistency by **Adi**
+# 📸 Project Previews
