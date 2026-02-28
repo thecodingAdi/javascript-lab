@@ -155,6 +155,30 @@ A structured 30-day JavaScript practice repository focused on fundamentals, logi
 
 ---
 
+## 🧹 Day 29 – Repo Cleanup
+
+- Clean folder structure
+- Removed unused code
+- Improved file naming
+- Optimized CSS & JS
+- Added screenshots
+- Final README update
+- Clean commit history
+
+---
+
+## 🚀 Day 30 – Mini Dashboard
+
+- Live Digital Clock
+- Todo List (localStorage)
+- Weather App (Fetch API)
+- Async/Await usage
+- Dynamic DOM updates
+- Error handling
+- Clean glass UI
+
+---
+
 # 📸 Project Screenshots
 
 ## 🔹 Day 15 – JS Link & Button Alert

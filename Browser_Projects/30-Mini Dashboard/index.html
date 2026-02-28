@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mini Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="dashboard">
+    <h2>🚀 Mini Dashboard</h2>
+
+    <!-- Clock -->
+    <div class="section">
+        <div class="clock" id="clock"></div>
+    </div>
+
+    <!-- Todo -->
+    <div class="section">
+        <h3>📝 Todo List</h3>
+        <input type="text" id="todoInput" placeholder="Add task...">
+        <button onclick="addTodo()">Add</button>
+        <ul class="todo-list" id="todoList"></ul>
+    </div>
+
+    <!-- Weather -->
+    <div class="section weather">
+        <h3>🌦 Weather</h3>
+        <input type="text" id="cityInput" placeholder="Enter city">
+        <button onclick="getWeather()">Check</button>
+        <p id="weatherResult"></p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
